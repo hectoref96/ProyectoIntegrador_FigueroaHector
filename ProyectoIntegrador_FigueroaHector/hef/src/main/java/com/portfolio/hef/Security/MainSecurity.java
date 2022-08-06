@@ -27,8 +27,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class MainSecurity extends WebSecurityConfigurerAdapter {
     
     @Autowired
-    UserDetailsImpl userDetailsServiceImpl;
-    
+    UserDetailsImpl userDetailsServiceImpl;   
     @Autowired
     JwtEntryPoint jwtEntryPoint;
 

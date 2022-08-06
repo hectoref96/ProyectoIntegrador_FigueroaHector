@@ -13,7 +13,7 @@ public class NuevoUsuario {
     private String nombreUsuario;
     private String email;
     private String password;
-    private Set<String> roles = new HashSet();
+    private Set<String> roles = new HashSet<>();
     
     // G y S
 
